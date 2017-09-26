@@ -38,7 +38,7 @@ void stack<T>::reallocate()
 }
 
 template <typename T>
-stack<T>::stack() : capacity_(5), count_(0), array_{ new T[capacity_] }
+stack<T>::stack() : capacity_(5), count_(0), array_{ new T[capacity_]; }
 {}
 
 template <typename T>
